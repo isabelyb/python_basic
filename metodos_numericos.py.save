@@ -1,0 +1,37 @@
+
+def run():
+	print('Vamos a calular raices cuadradas')
+	numero = int(input('Digita un numero: '))
+	metodo = input("""Selecciona el metodo por el que quieres calcular tu raiz cuadrada:
+				a: Numeracion Exhaustiva
+				b: Busqueda Binaria
+				c: Aproximacion numerica
+			""")
+	if metodo == 'a':
+		num_ext()
+	elif metodo == 'b':
+		bus_bin()
+	elif metodo == 'c':
+		aprox()
+	else:
+		print('Selecciona un metodo valido')
+
+
+	resultado = 0
+
+
+def num_exh():
+
+	print('numer. exh')
+
+sss
+def bus_bin():
+	pass
+
+
+def aprox():
+	pass
+
+
+if __name__=='__main__':
+	run()

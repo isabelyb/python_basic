@@ -1,0 +1,16 @@
+def run():
+	print(f'Hello, {name}!' 
+
+
+name = input("Cual es tu nombre? ")
+
+print(f'Hello, {name}!' 
+
+
+len(name)
+
+
+if __name__=="__main__":
+	run()
+
+
