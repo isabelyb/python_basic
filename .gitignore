@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 *.py.swp
 *.py.save
 *.py.save.1
 *.py.save.2
 *.py.save.3
+=======
+venv/
+
+>>>>>>> 5b217e96e57c5f3bde3c8419abc34281b70ac345
