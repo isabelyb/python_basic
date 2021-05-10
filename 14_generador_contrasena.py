@@ -1,20 +1,20 @@
 import random
 
 def generar_contrasena():
-	mayusculas = ["A", "B", "C", "D"]
-	minusculas = ["a",  "b", "c", "d"]
-	simbolos = ["!", "$", "&", "~"]
-	numeros =  ['1', '2', '3', '4']
+	mayusculas = ["A", "B", "C", "D", "E", "F", "G"]
+	minusculas = ["a",  "b", "c", "d", "e", "f", "g"]
+	simbolos = ["!", "$", "&", "~", "#", "?"]
+	numeros =  ["1", "2", "3", "4", "5", "6", "7"]
 
 	caracteres = mayusculas +  minusculas + simbolos + numeros
 
 	contrasena = []
 
-	for i in range(10):
+	for i in range(15):
 		caracter_random = random.choice(caracteres)
 		contrasena.append(caracter_random)
 
-	contrasena = "".join(contrasena)
+	contrasena = "".join(contrasena)   # convertir lista a string
 	return contrasena
 
 

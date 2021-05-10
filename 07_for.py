@@ -3,10 +3,11 @@
 #print(3)
 #print(4)
 
+
 #contador = 1
 #print(contador)
 #while contador < 1000:
-#	contador += 1
+#	contador += 1   # contador = contador + 1
 #	print(contador)
 
 #a = range(1000)

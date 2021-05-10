@@ -1,14 +1,14 @@
+# def run():
+# 	mi_diccionario = {
+# 		"llave1": 1,
+# 		"llave2": 2,
+# 		"llave3": 3,
+# 	}
+# 	print(mi_diccionario)  # {'llave1': 1, 'llave2': 2, 'llave3': 3}
+
+# 	print(mi_diccionario["llave1"]) # 1
+
 def run():
-	mi_diccionario = {
-		"llave1": 1,
-		"llave2": 2,
-		"llave3": 3,
-	}
-	print(mi_diccionario)
-
-	print(mi_diccionario["llave1"])
-
-
 	poblacion_paises = {
 		"Argentina": 44938712,
 		"Brasil": 210147125,
@@ -24,7 +24,7 @@ def run():
 
 	for pais, poblacion in poblacion_paises.items():
 		print(pais + " tiene " + str(poblacion) + " habitantes")
-	
+		# print(pais, poblacion)
 
 
 if __name__ == "__main__":

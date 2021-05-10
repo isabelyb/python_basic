@@ -7,11 +7,11 @@ def run():
 	numero_elegido = int(input("Elige un numero del 1 al 100: "))
 	while numero_elegido != numero_aleatorio:
 		if numero_elegido < numero_aleatorio:
-			print("Busca un numero mas grande")
+			print("Busca un numero más grande")
 		else:
-			print("Busca un numero mas pequeno")
+			print("Busca un numero más pequeño")
 		numero_elegido = int(input("Elige otro numero: "))
-	print("Ganaste!")
+	print("¡Ganaste!")
 
 
 if __name__ == "__main__":

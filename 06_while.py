@@ -1,5 +1,5 @@
 def run():
-	LIMITE = 1000000
+	LIMITE = 1000000  # Mayúscula porque es una constante
 
 	contador = 0
 	potencia_2 = 2**contador
