@@ -1,5 +1,6 @@
 def conversor(moneda, valor_usd):
-	cop = float(input("Cuantos pesos " + moneda + " colombianos tienes: "))
+	cop = float(input("Cuantos pesos " + moneda + \
+		" colombianos tienes: "))
 	usd = round((cop / valor_usd), 2)
 	usd = str(usd)
 	print("Tienes $ " + usd + " dolares")
