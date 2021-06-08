@@ -14,3 +14,4 @@ print(fruit_list[2])
 #Operators and operands
 
 
+4 / 0
