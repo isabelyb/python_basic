@@ -1,7 +1,7 @@
 
 # Clase: Tangaritas
 
-class tangarita:
+class Tangarita:
 
     #atributos
     def __init__(self, especie, alimento):
@@ -20,11 +20,11 @@ class tangarita:
 
 # instancias
 
-multicolor = tangarita('Multicolor','frutas')
+multicolor = Tangarita('Multicolor','frutas')
 multicolor.comer()
 
-golondrina = tangarita('Golondrina', 'insectos')
+golondrina = Tangarita('Golondrina', 'insectos')
 golondrina.comer()
 
-rastrojera = tangarita('Rastrojera', 'frutas, insectos')
+rastrojera = Tangarita('Rastrojera', 'frutas, insectos')
 rastrojera.comer()

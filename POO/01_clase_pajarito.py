@@ -1,6 +1,6 @@
 # Clase Pajarito
 
-class pajarito:
+class Pajarito:
     # Atributos de pajarito
     def __init__(self, nombre, color, orden):
         self.nombre = nombre
@@ -35,17 +35,17 @@ class pajarito:
        
 # Instancias de Pájaritos
     
-azuleji = pajarito('Azulejo', 'Azul', 'Paseriformes')
+azuleji = Pajarito('Azulejo', 'Azul', 'Paseriformes')
 azuleji.informacion()
 azuleji.comer('frutas')
 azuleji.volar()
 
-carpinteri = pajarito('Carpintero', 'Rojito y pintadito negro y blanco', 'Piciformes')
+carpinteri = Pajarito('Carpintero', 'Rojito y pintadito negro y blanco', 'Piciformes')
 carpinteri.informacion()
 carpinteri.comer('insectos')
 carpinteri.volar()
 
-pingui = pajarito('Pinguino', 'Banco y negro', 'Sphenisciformes')
+pingui = Pajarito('Pinguino', 'Banco y negro', 'Sphenisciformes')
 pingui.informacion()
 pingui.comer('carne')
 pingui.volar()
