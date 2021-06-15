@@ -1,4 +1,4 @@
-import time
+import time   # Para medir tiempo
 
 def factorial(n):
 	respuesta = 1
@@ -17,7 +17,7 @@ def factorial_r(n):
 
 
 if __name__ == '__main__':
-	n = 50000
+	n = 200000
 
 	comienzo = time.time()
 	factorial(n)
