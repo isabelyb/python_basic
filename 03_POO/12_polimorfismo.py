@@ -6,10 +6,10 @@ class Persona:
 	def avanza(self):
 		print('Ando caminando')
 
-class Ciclista(Persona):
+class Ciclista(Persona): # Clase ciclista extiende persona
 
 	def __init__(self, nombre):
-		super().__init__(nombre)
+		super().__init__(nombre)  # Herencia
 
 	def avanza(self):
 		print('Ando moviendome en  mi bicicleta')
