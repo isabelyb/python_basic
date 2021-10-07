@@ -2,6 +2,7 @@ def make_div_by(n):
     '''This closure returns a function that returns the
         division of an x number by n
     '''
+    assert n >  0, "n can't be 0"  
     def div_by(x):
         return x / n
     return div_by
