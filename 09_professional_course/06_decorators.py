@@ -7,6 +7,6 @@ def mayusculas(func):  # Un decorador es una función que recibe como parámetro
 def mensaje(nombre):
     return f'{nombre}, recibiste un mensaje'
 
-print(mensaje('Isa'))
+#print(mensaje('Isa'))
 
 # ISA, RECIBISTE UN MENSAJE 
